@@ -1,0 +1,92 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: #3c3535;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+header {
+  background-color: #272525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 0rem;
+  width: 100%;
+  height: 2rem;
+}
+header h1 {
+  color: white;
+  font-size: 1.4rem;
+  margin-left: 1.6rem;
+}
+header nav {
+  display: flex;
+}
+header nav p {
+  font-size: 0.9rem;
+  color: white;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+header nav p:hover {
+  color: lightcoral;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+main .imagem--inicio {
+  margin: 2rem 2rem 0rem 2rem;
+  width: calc(100% - 4rem);
+  height: 550px;
+}
+main h1 {
+  font-size: 26px;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(39, 37, 37, 0.7333333333);
+  margin: 40px 23px 23px 23px;
+  text-align: center;
+}
+main p {
+  color: white;
+  font-size: 1rem;
+  text-align: justify;
+  margin-bottom: 1rem;
+}
+main section {
+  width: 60%;
+}
+main .imagem--novidades {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #272525;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem;
+  color: white;
+}
+footer div {
+  display: flex;
+  align-items: center;
+}
+footer div a {
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+}
+footer div a:hover {
+  color: lightcoral;
+}
+/*# sourceMappingURL=main.css.map */
